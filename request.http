@@ -1,0 +1,37 @@
+POST http://localhost:4002/roupas
+content-type: application/json
+
+{
+    "name": "Calça de pantacurt",
+    "cor": "Jeans"
+}
+
+###
+
+POST http://localhost:4002/roupas
+content-type: application/json
+
+{
+    "name": "Jardeneira bolada",
+    "cor": "Preto"
+}
+
+###
+
+GET http://localhost:4002/roupas
+
+###
+GET http://localhost:4002/roupas/9e085525-7623-4b5f-ae74-300799f00578
+
+###
+
+PUT http://localhost:4002/roupas/7deb4135-4761-431b-acba-9131a5072756
+content-type: application/json
+
+{
+    "name": "Vestido",
+    "cor": "Marrom"
+}
+
+###
+DELETE http://localhost:4002/roupas/609a8fd4-58d2-41fb-ab3f-e7f98493ce62
